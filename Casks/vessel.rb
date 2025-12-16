@@ -3,7 +3,7 @@ cask "vessel" do
   name "vessel"
   desc "Vessel is a CLI tool for managing Helm charts."
   homepage "https://github.com/deimosfr/Vessel"
-  version "1.1.0"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "vessel" do
   on_macos do
     on_intel do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_darwin_amd64.tar.gz"
-      sha256 "482d7333f5e1789edd839d3389432c1e1e53bb574b3cba60bceb6dc35913ef5a"
+      sha256 "9c6549094160c55681e3e4114ad23fb61c0c4b09aa41f20799a1b89331d1e881"
     end
     on_arm do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_darwin_arm64.tar.gz"
-      sha256 "9c9e3c2dffa2698eaed5d5e97dc7715786c88cc27e215e18e3a291879e32344d"
+      sha256 "510ba445b4ae2f2e462b15126e3306a100a7f06556de2cc71eff33cb1cb1a32a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_linux_amd64.tar.gz"
-      sha256 "ccd9227ac0d6cef55f512964e5c48196842287630583e18dc4226dbb6e2c7390"
+      sha256 "1527d03ad41ec5460fd84e2ecc48abff3b5c5e35cade1f9708dc82159a248745"
     end
     on_arm do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_linux_arm64.tar.gz"
-      sha256 "3cb14f5c2197ffd069d719856db67196de12d88770edf2b82f0974e33744f9c8"
+      sha256 "562c5bbe918fa060c3d398391f911635294968afe35c00b9fd01eb0e1269ef58"
     end
   end
 
