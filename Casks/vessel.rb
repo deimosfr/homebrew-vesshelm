@@ -14,22 +14,22 @@ cask "vessel" do
   on_macos do
     on_intel do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_darwin_amd64.tar.gz"
-      sha256 "9c6549094160c55681e3e4114ad23fb61c0c4b09aa41f20799a1b89331d1e881"
+      sha256 "8e0958a7e2657a6f65eefc04c17e6883257d6e0e089205ec64bbe6e7b42a3066"
     end
     on_arm do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_darwin_arm64.tar.gz"
-      sha256 "510ba445b4ae2f2e462b15126e3306a100a7f06556de2cc71eff33cb1cb1a32a"
+      sha256 "c4c4662bebafe5ac259936279ad04dc122dbb32035971dec5e2ba3f503ffda81"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_linux_amd64.tar.gz"
-      sha256 "1527d03ad41ec5460fd84e2ecc48abff3b5c5e35cade1f9708dc82159a248745"
+      sha256 "4ae789fa6ddfefaea00e908c45f956a977f73dcfb20e6d01638a60aa32f4ecab"
     end
     on_arm do
       url "https://github.com/deimosfr/vessel/releases/download/v#{version}/vessel_#{version}_linux_arm64.tar.gz"
-      sha256 "562c5bbe918fa060c3d398391f911635294968afe35c00b9fd01eb0e1269ef58"
+      sha256 "9e9884fb61dbe6773c115efce2317696ad42eb8da0472f10c50c46490aeb0e57"
     end
   end
 
