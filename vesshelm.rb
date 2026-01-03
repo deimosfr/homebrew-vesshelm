@@ -5,21 +5,21 @@
 class Vesshelm < Formula
   desc "Vesshelm is a CLI tool for managing Helm charts."
   homepage "https://github.com/deimosfr/vesshelm"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/deimosfr/vesshelm/releases/download/v1.3.0/vesshelm_1.3.0_darwin_amd64.tar.gz"
-      sha256 "fe45e2e4a8b960b2ae447f9e3103f41db89b66814c6a6120ca38f26149861bf0"
+      url "https://github.com/deimosfr/vesshelm/releases/download/v1.4.0/vesshelm_1.4.0_darwin_amd64.tar.gz"
+      sha256 "b72c67e15a2a71bad3d45b269224516e06db2f5024197a3d5cc47ca57a7fd2ea"
 
       def install
         bin.install "vesshelm"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/deimosfr/vesshelm/releases/download/v1.3.0/vesshelm_1.3.0_darwin_arm64.tar.gz"
-      sha256 "be7281123fde61d56d6dc9ed9e8eacabce52544668503af31d4ba42837d8f4dc"
+      url "https://github.com/deimosfr/vesshelm/releases/download/v1.4.0/vesshelm_1.4.0_darwin_arm64.tar.gz"
+      sha256 "3413812726c048261d89b02b37538dfa71c1a1a317589403f30f3c524da1b4e3"
 
       def install
         bin.install "vesshelm"
@@ -29,15 +29,15 @@ class Vesshelm < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deimosfr/vesshelm/releases/download/v1.3.0/vesshelm_1.3.0_linux_amd64.tar.gz"
-      sha256 "0ad77034c2aa274afafc439e8e74d7dbb7767d26b5323adf54e594fb76a08f3f"
+      url "https://github.com/deimosfr/vesshelm/releases/download/v1.4.0/vesshelm_1.4.0_linux_amd64.tar.gz"
+      sha256 "8af541911603f9ff7cc5f241853b75090e25dd11ea106d0c09d0a6e497315376"
       def install
         bin.install "vesshelm"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deimosfr/vesshelm/releases/download/v1.3.0/vesshelm_1.3.0_linux_arm64.tar.gz"
-      sha256 "c4282e74ef9e788681d0a191f299c12b2fd26619fae7650dbfe24afcae938e7c"
+      url "https://github.com/deimosfr/vesshelm/releases/download/v1.4.0/vesshelm_1.4.0_linux_arm64.tar.gz"
+      sha256 "15568f00e44cfd08909460ab851a1e847dca0cf0c901a9a57e7dc66d20d86531"
       def install
         bin.install "vesshelm"
       end
